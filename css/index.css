@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.flexbox {
+    display: flex;
+}
+
+.flexbox-inline {
+    display: inline-flex;
+}
+
+.nav-top {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-top a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links {
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.top-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +132,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +211,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.skyline-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-top {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed;
+}
+
+.about-bottom {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.learn-item {
+    flex-direction: column;
+    justify-items: space-between;
+    width: 48%;
+    border-bottom: 1px dashed;
+}
+
+.learn-item h2 {
+    margin-top: 20px;
+}
+
+.learn-item h3 {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.learn-row1 {
+    justify-content: space-between;
+    margin-top: 30px;
+    
 }
