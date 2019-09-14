@@ -242,7 +242,12 @@ footer nav a {
     border-bottom: 1px dashed;
 }
 
+.learn-item h2 {
+    margin-top: 20px;
+}
+
 .learn-item h3 {
+    margin-top: 20px;
     border: 2px solid black;
     padding: 10px;
     text-align: center;
