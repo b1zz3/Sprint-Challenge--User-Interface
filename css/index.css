@@ -80,11 +80,14 @@ p {
 }
 
 .nav-top {
-    text-decoration: none;
     justify-content: space-evenly;
     align-items: flex-end;
 }
 
+.nav-top a {
+    color: black;
+    text-decoration: none;
+}
 .nav-logo {
     justify-content: flex-start;
 }
@@ -206,4 +209,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.skyline-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-top {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed;
 }
