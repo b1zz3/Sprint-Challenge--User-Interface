@@ -225,10 +225,19 @@ footer nav a {
     border-bottom: 1px dashed;
 }
 
+.about-bottom {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
 .learn-item {
     flex-direction: column;
     justify-items: space-between;
-    background: grey;
     width: 48%;
     border-bottom: 1px dashed;
 }
