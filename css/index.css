@@ -224,3 +224,15 @@ footer nav a {
     padding-bottom: 20px;
     border-bottom: 1px dashed;
 }
+
+.learn-item {
+    flex-direction: column;
+    justify-items: space-between;
+    background: red;
+    width: 48%;
+}
+
+.learn-row1 {
+    justify-content: space-between;
+    margin-top: 30px;
+}
