@@ -242,6 +242,14 @@ footer nav a {
     border-bottom: 1px dashed;
 }
 
+.learn-item h3 {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+
 .learn-row1 {
     justify-content: space-between;
     margin-top: 30px;
